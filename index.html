@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" type="image/x-icon" href="images/me.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Нижников Дмитрий</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-dark fs-4 fixed-top rounded-bottom-3"
+      data-bs-theme="dark"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nizhnikov Dmitry</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#about">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="box">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <img
+            src="images/me.jpg"
+            alt=""
+            class="img rounded-circle col-4 col-md-3 col-lg-2"
+          />
+        </div>
+        <div class="row justify-content-center text-white fs-2 mt-3">
+          Nizhnikov Dmitry
+        </div>
+        <div class="row justify-content-center text-white fs-4">
+          Full-Stack | Backend Web-developer
+        </div>
+        <div class="container justify-content-center text-white fs-4 mt-3">
+          <a href="https://wa.me/79135143942"
+            ><i class="bi bi-whatsapp text-white mx-1"></i
+          ></a>
+          <a href="https://t.me/MityaiS"
+            ><i class="bi bi-telegram text-white mx-1"></i
+          ></a>
+          <a href="https://github.com/MityaiS"
+            ><i class="bi bi-github text-white mx-1"></i
+          ></a>
+          <a href="mailto:dmitrix_n@mail.ru"
+            ><i class="bi bi-envelope-at text-white mx-1"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div class="container p-5" id="about">
+      <h3>Hey!</h3>
+      <div class="container fs-5">
+        <p>
+          I'm Dmitry Nizhnikov. I'm a Web-developer and I can help you with your
+          site.
+        </p>
+        <p>What requirements do I meet:</p>
+        <ul>
+          <li>
+            Confident user of Linux(use Arch on my own device), have Docker
+            skills.
+          </li>
+          <li>Experience in working with reverse-proxy Nginx.</li>
+          <li>RabbitMQ skills.</li>
+          <li>Know WebSocket protocol and experience in working with it.</li>
+          <li>
+            Good knowledge in Python and Flask(and lots of it's extensions).
+          </li>
+          <li>HTML, CSS skills.</li>
+          <li>Know how to create and use REST API.</li>
+          <li>Experience in working with ORM and understanding SQL queries.</li>
+          <li>Fast, self learning.</li>
+          <li>Responsible and open to communication.</li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="container-fluid bg-black"
+      style="--bs-bg-opacity: 0.9"
+      id="portfolio"
+    >
+      <div class="container text-center py-5">
+        <h2 class="text-white">Portfolio</h2>
+        <div class="row mt-5 justify-content-end">
+          <div class="col col-md-8 col-lg-6 col-xl-5">
+            <div class="card">
+              <img
+                src="images/chat_socket.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Simple chat</h5>
+                <p class="card-text">
+                  Created simple chat site using WebSocket protocol, so users
+                  can get data from the site without reloading it.
+                </p>
+                <p class="card-body">
+                  Used Flask, Flask-SocketIO, Bootstrap, CSS.
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://github.com/MityaiS/Chat_socketio"
+                  class="card-link"
+                  >GitHub Repo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col col-md-8 col-lg-6 col-xl-5">
+            <div class="card">
+              <img src="images/beer_app.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Website for the sale of products</h5>
+                <p class="card-text">
+                  My friend from the dorm proposed interesting idea. It was
+                  about opening a beer shop in our room with rating on the web
+                  page who drunk most. Students love beer, so I got started
+                  doing the site. It was my second site so it took me less then
+                  a week to do. On the site you can buy the beer, see the
+                  rating, see you orders. If you're an admin you can do a little
+                  more, of course.
+                </p>
+                <p class="card-body">
+                  I used Python Flask, Bootstrap, SQLAlchemy, AWS, NGINX and
+                  other stuff.
+                </p>
+              </div>
+              <div class="card-body">
+                <a href="https://github.com/MityaiS/beer_app" class="card-link"
+                  >GitHub Repo</a
+                >
+                <a href="https://1221.pro" class="card-link">Site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-end mt-5">
+          <div class="col col-md-8 col-lg-6 col-xl-5">
+            <div class="card">
+              <img src="images/blog_site.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Blog Website</h5>
+                <p class="card-text">
+                  I wanted to do my first web site so I decided to make a blog
+                  web site for a dorm. Didn't expected that to be used seriously
+                  but I needed it for getting experience. On this website you
+                  can register, write posts, edit them and more, especially if
+                  you're an admin.
+                </p>
+                <p class="card-body">
+                  I used Flask, SQLAlchemy, Nginx, AWS, Bootstrap, CSS and
+                  other.
+                </p>
+              </div>
+              <div class="card-body">
+                <a
+                  href="https://github.com/MityaiS/Neighbours"
+                  class="card-link"
+                  >GitHub Repo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

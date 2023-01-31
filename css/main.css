@@ -1,0 +1,8 @@
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+}
